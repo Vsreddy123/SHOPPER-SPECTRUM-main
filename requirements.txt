@@ -31,3 +31,24 @@ joblib==1.2.0
 # You might need to add or remove these based on your actual code
 scikit-learn==1.1.3
 plotly==5.11.0
+# This file lists the dependencies for your Streamlit application.
+# It ensures that all required libraries are installed when the app is deployed.
+
+# Core dependencies (as per previous analysis and common usage)
+streamlit
+pandas
+numpy
+altair
+Pillow
+protobuf
+pyarrow
+pydeck
+matplotlib
+joblib
+
+# The dependency causing the current error
+scikit-learn
+
+# Other potentially useful libraries that are common in data apps
+# You might need to add or remove these based on your actual code
+plotly
